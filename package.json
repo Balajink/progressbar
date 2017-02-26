@@ -1,0 +1,32 @@
+{
+  "name": "progressbar",
+  "version": "1.0.0",
+  "description": "Progress Bar Implementation using javascript",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Balajink/progressbar.git"
+  },
+  "keywords": [
+    "progress",
+    "bar"
+  ],
+  "author": "Balaji NK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Balajink/progressbar/issues"
+  },
+  "homepage": "https://github.com/Balajink/progressbar#readme",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-minify": "0.0.15",
+    "gulp-open": "^2.0.0",
+    "gulp-uglify": "^2.0.1"
+  }
+}

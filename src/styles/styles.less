@@ -1,0 +1,33 @@
+@backgroundBarColor : #4CAF50;
+
+.bar-group{
+    position: relative;
+    width: 100%;
+    border: 1px solid #000;
+    height: 30px;
+    overflow: hidden;
+}
+.bar{
+    height: 100%;
+    -webkit-transition: width .2s;
+    transition: width .2s;
+    transition-timing-function: linear;
+}
+.bar-color{
+    background-color:@backgroundBarColor;
+}
+.bar-text{
+    color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    margin: auto;
+    height: 20px;
+    right: 0;
+    bottom: 0;
+}
+
+.progress-overflow{
+    background-color: red;
+}
