@@ -13,13 +13,8 @@ window.onload = function () {
             var config = {
                 "endpoint": "http://pb-api.herokuapp.com/bars",
                };
-
-
             _getData(config);
-
         };
-
-
 
         app.render = function () { // render elements to DOM and bind events
             generateElements = (function(){
@@ -52,7 +47,6 @@ window.onload = function () {
                             document.getElementById("progress-select").innerHTML = dynamicHtml;
                         _cache.elements.innerHTML = progressBarHtml;
                         }
-
             }
          }()); //end of generateElements
          
