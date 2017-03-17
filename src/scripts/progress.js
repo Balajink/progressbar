@@ -2,7 +2,7 @@ window.onload = function () {
     var myApp = myApp || {};
     (function (app) {
         var _scope = {}; //Private variable
-        var _cache= { //Priavte variable
+        var _cache= { //Private variable
             "filter": document.getElementById('progress-select'),
             "buttons": document.getElementById("button-elements"),
             "elements": document.getElementById("progressbar-elements"),
